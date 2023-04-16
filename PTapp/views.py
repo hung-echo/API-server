@@ -106,6 +106,6 @@ def TicketAPI(request, id = 0):
             return JsonResponse("Update Successfully", safe = False)
         return JsonResponse("Update Faild", safe = False)
     elif request.method == 'DELETE':
-        ticket = Employee.objects.get(id = id)
+        ticket = Ticket.objects.get(id = id)
         ticket.delete()
         return JsonResponse("Deleted", safe = False)
