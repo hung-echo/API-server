@@ -1,8 +1,6 @@
 # API-server
 first API
 
-You can read and practice to write API in link which used to learn to write this API
-# https://www.bezkoder.com/django-rest-api/
 Learn more about data type and fields list in below link
 # https://www.geeksforgeeks.org/django-model-data-types-and-fields-list/
 
